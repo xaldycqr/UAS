@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Menghubungkan file CSS Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Menghubungkan Font Awesome dari CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Menghubungkan file CSS kustom -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MaxWheels - Temukan Mobil Impian Anda</title>
+</head>
+<body>
+    
+<!-- Bagian Header -->
+<header class="header">
+    <!-- Tombol Menu untuk Tampilan Mobile -->
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <!-- Logo -->
+    <a href="#" class="logo"> <span>max</span>wheels </a>
+
+    <!-- Navigasi -->
+    <nav class="navbar">
+        <a href="#home">Beranda</a>
+        <a href="#vehicles">Kendaraan</a>
+        <a href="#services">Layanan</a>
+        <a href="#featured">Unggulan</a>
+        <a href="#reviews">Ulasan</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <!-- Tombol Login -->
+    <div id="login-btn">
+        <button class="btn">Masuk</button>
+        <i class="far fa-user"></i>
+    </div>
+</header> 
+    
+<!-- Form Login -->
+<div class="login-form-container">
+    <!-- Tombol Tutup Form Login -->
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <!-- Form Login -->
+    <form action="">
+        <h3>login pengguna</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="kata sandi" class="box">
+        <p> lupa kata sandi? <a href="#">klik di sini</a> </p>
+        <input type="submit" value="masuk" class="btn">
+        <p>atau masuk dengan</p>
+        <div class="buttons">
+            <a href="#" class="btn"> Google </a>
+            <a href="#" class="btn"> Facebook </a>
+        </div>
+        <p> belum punya akun? <a href="#">buat akun</a> </p>
+    </form>
+</div>
+
+<!-- Bagian Beranda -->
+<section class="home" id="home">
+    <h3 data-speed="-2" class="home-parallax">Temukan Mobil Anda</h3>
+    <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
+    <a data-speed="7" href="#" class="btn home-parallax">Jelajahi Mobil</a>
+</section>
+
+<!-- Bagian Ikon -->
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>78+</h3>
+            <p>cabang</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>1370+</h3>
+            <p>mobil terjual</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>520+</h3>
+            <p>klien bahagia</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>820+</h3>
+            <p>mobil baru</p>
+        </div>
+    </div>
+</section>
+
+<!-- Bagian Kendaraan -->
+<section class="vehicles" id="vehicles">
+    <h1 class="heading"> kendaraan <span>populer</span> </h1>
+
+    <div class="swiper vehicles-slider">
+        <div class="swiper-wrapper">
+            <!-- Slide Kendaraan 1 -->
+            <div class="swiper-slide box">
+                <img src="image/vehicle-1.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="price"> <span>harga : </span> $62,000/- </div>
+                    <p>
+                        baru
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> otomatis
+                        <span class="fas fa-circle"></span> bensin
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+
+            <!-- Slide Kendaraan 2 -->
+            <div class="swiper-slide box">
+                <img src="image/vehicle-2.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="price"> <span>harga : </span> $62,000/- </div>
+                    <p>
+                        baru
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> otomatis
+                        <span class="fas fa-circle"></span> bensin
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+
+            <!-- Slide Kendaraan 3 -->
+            <div class="swiper-slide box">
+                <img src="image/vehicle-3.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="price"> <span>harga : </span> $62,000/- </div>
+                    <p>
+                        baru
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> otomatis
+                        <span class="fas fa-circle"></span> bensin
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+
+            <!-- Slide Kendaraan 4 -->
+            <div class="swiper-slide box">
+                <img src="image/vehicle-4.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="price"> <span>harga : </span> $62,000/- </div>
+                    <p>
+                        baru
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> otomatis
+                        <span class="fas fa-circle"></span> bensin
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+
+            <!-- Slide Kendaraan 5 -->
+            <div class="swiper-slide box">
+                <img src="image/vehicle-5.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="price"> <span>harga : </span> $62,000/- </div>
+                    <p>
+                        baru
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> otomatis
+                        <span class="fas fa-circle"></span> bensin
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+
+            <!-- Slide Kendaraan 6 -->
+            <div class="swiper-slide box">
+                <img src="image/vehicle-6.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="price"> <span>harga : </span> $62,000/- </div>
+                    <p>
+                        baru
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> otomatis
+                        <span class="fas fa-circle"></span> bensin
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination Swiper -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- Bagian Layanan -->
+<section class="services" id="services">
+    <h1 class="heading"> layanan <span>kami</span> </h1>
+
+    <div class="box-container">
+        <!-- Layanan 1: Penjualan Mobil -->
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>penjualan mobil</h3>
+            <p>Kami menyediakan berbagai pilihan mobil baru dan bekas berkualitas tinggi dengan harga kompetitif. Dapatkan mobil impian Anda dengan mudah dan cepat.</p>
+            <a href="#" class="btn">selengkapnya</a>
+        </div>
+
+        <!-- Layanan 2: Perbaikan Suku Cadang -->
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>perbaikan suku cadang</h3>
+            <p>Layanan perbaikan suku cadang profesional untuk menjaga performa mobil Anda tetap optimal. Kami menggunakan suku cadang asli dan berkualitas tinggi.</p>
+            <a href="#" class="btn">selengkapnya</a>
+        </div>
+
+        <!-- Layanan 3: Asuransi Mobil -->
+        <div class="box">
+            <i class="fas fa-car-crash"></i>
+            <h3>asuransi mobil</h3>
+            <p>Kami menawarkan paket asuransi mobil yang lengkap untuk melindungi kendaraan Anda dari risiko kerusakan, kehilangan, atau kecelakaan.</p>
+            <a href="#" class="btn">selengkapnya</a>
+        </div>
+
+        <!-- Layanan 4: Penggantian Aki -->
+        <div class="box">
+            <i class="fas fa-car-battery"></i>
+            <h3>penggantian aki</h3>
+            <p>Layanan penggantian aki mobil dengan produk berkualitas dan garansi resmi. Pastikan mobil Anda selalu siap digunakan kapan saja.</p>
+            <a href="#" class="btn">selengkapnya</a>
+        </div>
+
+        <!-- Layanan 5: Ganti Oli -->
+        <div class="box">
+            <i class="fas fa-gas-pump"></i>
+            <h3>ganti oli</h3>
+            <p>Layanan ganti oli berkala untuk menjaga performa mesin mobil Anda. Kami menggunakan oli berkualitas tinggi yang sesuai dengan rekomendasi pabrikan.</p>
+            <a href="#" class="btn">selengkapnya</a>
+        </div>
+
+        <!-- Layanan 6: Dukungan 24/7 -->
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>dukungan 24/7</h3>
+            <p>Tim dukungan kami siap membantu Anda 24 jam sehari, 7 hari seminggu. Hubungi kami kapan saja untuk pertanyaan atau bantuan darurat.</p>
+            <a href="#" class="btn">selengkapnya</a>
+        </div>
+    </div>
+</section>
+
+<!-- Bagian Mobil Unggulan -->
+<section class="featured" id="featured">
+    <h1 class="heading"> mobil <span>unggulan</span> </h1>
+
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+            <!-- Slide Mobil Unggulan 1 -->
+            <div class="swiper-slide box">
+                <img src="image/car-1.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+
+            <!-- Slide Mobil Unggulan 2 -->
+            <div class="swiper-slide box">
+                <img src="image/car-2.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+
+            <!-- Slide Mobil Unggulan 3 -->
+            <div class="swiper-slide box">
+                <img src="image/car-3.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+
+            <!-- Slide Mobil Unggulan 4 -->
+            <div class="swiper-slide box">
+                <img src="image/car-4.png" alt="">
+                <div class="content">
+                    <h3>model baru</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">lihat detail</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination Swiper -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- Bagian Newsletter -->
+<section class="newsletter">
+    <h3>berlangganan untuk pembaruan terbaru</h3>
+    <p>Dapatkan informasi terbaru tentang promo, mobil baru, dan layanan eksklusif dari MaxWheels langsung ke email Anda.</p>
+    <form action="">
+        <input type="email" placeholder="masukkan email Anda">
+        <input type="submit" value="berlangganan">
+    </form>
+</section>
+
+<!-- Bagian Ulasan -->
+<section class="reviews" id="reviews">
+    <h1 class="heading"> ulasan <span>klien</span> </h1>
+
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <!-- Ulasan 1 -->
+            <div class="swiper-slide box">
+                <img src="image/pic-1.jpeg" alt="">
+                <div class="content">
+                    <p>Saya sangat puas dengan pelayanan MaxWheels. Mobil yang saya beli berkualitas tinggi, dan proses pembeliannya sangat cepat. Tim sales sangat profesional dan ramah. Terima kasih!</p>
+                    <h3>Jen</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ulasan 2 -->
+            <div class="swiper-slide box">
+                <img src="image/pic-2.jpeg" alt="">
+                <div class="content">
+                    <p>Pengalaman beli mobil di MaxWheels sungguh menyenangkan. Mereka memberikan banyak pilihan mobil dengan harga kompetitif. Saya mendapatkan mobil impian saya tanpa ribet!</p>
+                    <h3>Ahmad</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ulasan 3 -->
+            <div class="swiper-slide box">
+                <img src="image/pic-3.jpeg" alt="">
+                <div class="content">
+                    <p>MaxWheels adalah tempat terbaik untuk mencari mobil baru. Saya mendapatkan mobil dengan spesifikasi yang sesuai kebutuhan dan harga yang terjangkau. Pelayanan purna jualnya juga sangat memuaskan.</p>
+                    <h3>Ikhsan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ulasan 4 -->
+            <div class="swiper-slide box">
+                <img src="image/pic-4.jpeg" alt="">
+                <div class="content">
+                    <p>Saya merekomendasikan MaxWheels kepada semua orang yang mencari mobil berkualitas. Prosesnya transparan, dan stafnya sangat membantu. Mobil yang saya beli dalam kondisi sempurna!</p>
+                    <h3>Riswanda</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ulasan 5 -->
+            <div class="swiper-slide box">
+                <img src="image/pic-5.jpeg" alt="">
+                <div class="content">
+                    <p>MaxWheels memberikan pengalaman belanja mobil yang luar biasa. Saya mendapatkan mobil dengan diskon besar dan prosesnya sangat cepat. Terima kasih tim MaxWheels!</p>
+                    <h3>Boby</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ulasan 6 -->
+            <div class="swiper-slide box">
+                <img src="image/pic-6.jpg" alt="">
+                <div class="content">
+                    <p>Saya sangat terkesan dengan layanan MaxWheels. Mereka memberikan informasi yang jelas dan membantu saya memilih mobil yang tepat. Proses pembayaran juga sangat mudah.</p>
+                    <h3>Aldy</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination Swiper -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- Bagian Kontak -->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>hubungi</span> kami</h1>
+
+    <div class="row">
+        <!-- Menampilkan Peta Kisaran, Sumatera Utara, Indonesia -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.391848318711!2d99.6152603147539!3d3.002852997753703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031750b1e6f5c1f%3A0x6f6b5f5b5f5b5f5b!2sKisaran%2C%20Sumatera%20Utara%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1632137920043!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+
+        <!-- Form Kontak -->
+        <form action="">
+            <h3>hubungi kami</h3>
+            <input type="text" placeholder="nama Anda" class="box">
+            <input type="email" placeholder="email Anda" class="box">
+            <input type="tel" placeholder="subjek" class="box">
+            <textarea placeholder="pesan Anda" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="kirim pesan" class="btn">
+        </form>
+    </div>
+</section>
+
+<!-- Bagian Footer -->
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Cabang Kami</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> INDONESIA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> MALAYSIA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> SINGAPURA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> UAE </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> JEPANG </a>
+        </div>
+
+        <div class="box">
+            <h3>Tautan Cepat</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Beranda </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Kendaraan </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Layanan </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Unggulan </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Ulasan </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Kontak </a>
+        </div>
+
+        <div class="box">
+            <h3>Info Kontak</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +62-813-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +62-852-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> MaxWheels@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kisaran - Indonesia - 3333 </a>
+        </div>
+
+        <div class="box">
+            <h3>Media Sosial</h3>
+            <a href="https://www.facebook.com/Gamers09"> <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+            <a href="https://www.instagram.com/user_13136181"> <i class="fab fa-instagram"></i> Instagram </a>
+            <a href="#"> <i class="fab fa-youtube"></i> Youtube </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> Pinterest </a>
+        </div>
+    </div>
+
+    <div class="credit"> dibuat oleh <a href=""> C Q R </a> | Semua Hak Dilindungi </div>
+</section>
+
+<!-- Menghubungkan file JavaScript Swiper -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Menghubungkan file JavaScript kustom -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
